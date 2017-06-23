@@ -1,0 +1,19 @@
+{
+  "name": "backlog",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-webdriver": "^1.2.0",
+    "chai-webdriver-promised": "^4.0.3",
+    "mocha": "^3.4.2",
+    "selenium-webdriver": "^3.4.0"
+  },
+  "dependencies": {}
+}
