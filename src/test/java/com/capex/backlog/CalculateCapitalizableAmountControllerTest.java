@@ -6,11 +6,11 @@ import org.springframework.ui.Model;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class CalculatorControllerTest {
+public class CalculateCapitalizableAmountControllerTest {
 
     @Test
     public void calculate_usesTheFormParamsAndAppliesTheCalculation() {
-        CalculatorController subject = new CalculatorController();
+        CalculateCapitalizableAmountController subject = new CalculateCapitalizableAmountController();
 
         int spend = 50000;
         int percentage = 84;
@@ -23,7 +23,7 @@ public class CalculatorControllerTest {
 
     @Test
     public void calculate_whenSuccessful_rendersTheResultsPage() {
-        CalculatorController subject = new CalculatorController();
+        CalculateCapitalizableAmountController subject = new CalculateCapitalizableAmountController();
 
         String renderedPage = subject.calculate(0, 0, new ExtendedModelMap());
 
